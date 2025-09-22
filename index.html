@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>❤️ Para Ti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💖 Para la persona más especial 💖</h1>
+    <p class="mensaje">
+      Eres la razón por la que sonrío cada día.<br>
+      Tu amor llena mi mundo de luz y alegría.<br>
+      Gracias por existir, te amo con todo mi corazón. ❤️
+    </p>
+
+    <!-- Botones -->
+    <button onclick="mostrarSorpresa()">🎁 Haz clic aquí</button>
+    <button onclick="enviarRosa()">🌹 Enviar una rosa</button>
+    <button onclick="mostrarRazones()">✨ Razones por las que te amo</button>
+    <button onclick="soñarContigo()">💭 Mi sueño contigo</button>
+    <button onclick="mostrarCollage()">📸 Nuestros momentos</button>
+    <button onclick="reproducirCancion()">🎶 Nuestra canción</button>
+  </div>
+
+  <!-- Efectos -->
+  <div class="corazones" id="corazones"></div>
+  <div class="rosas" id="rosas"></div>
+  <div class="nubes" id="nubes"></div>
+  <div class="notas" id="notas"></div>
+
+  <!-- Modal con la imagen -->
+  <div id="modalCollage" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="cerrarCollage()">&times;</span>
+      <h2>📸 Nuestros momentos juntos</h2>
+      <p>Cada foto es un recuerdo que quiero guardar para siempre contigo ❤️</p>
+      <img src="IMG_20250527_065111_484.jpg" alt="Collage de amor" class="collage-img">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
